@@ -83,7 +83,7 @@ int main() {
         }
     }
 
-    cout << best_i << " " << best_j << '\n';
+    cout << best_i + 1 << " " << best_j + 1 << '\n';
 
     return 0;
 }
