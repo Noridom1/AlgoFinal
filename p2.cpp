@@ -6,7 +6,7 @@ int main(){
     cin.tie(NULL);
     int n; cin >> n;
     int max = 2*n;
-    vector <bool> prime(max, true);
+    vector <bool> prime(max+1, true);
     /*
     Sieve Array Precomputation
     Sieve takes O(M log log M) where M = 2*n.
