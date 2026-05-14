@@ -32,7 +32,7 @@ int main(){
     /*
     Build Sparse Table
 
-    Transition: st[i][j] = gcd of interval length 2^j
+    Transition: st[i][j] = gcd starting from index i of interval length 2^j
 
     Split interval into two halves:
     each half has length 2^(j-1)
